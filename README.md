@@ -22,8 +22,12 @@ UniDebugger/
 ├── docs/ # 项目文档、开题报告、参考资料
 ├── prototype/ # 工具原型配置、核心逻辑示例
 ├── data/ # 示例数据集、字段说明
+├──detector,py/#快速运行
+├──requirements.txt/#标准库
 └── README.md # 项目说明文档
 
+## 快速运行
+python detector.py   # 自动生成模拟数据并检出急减速异常
 
 ## 团队分工
 - 测绘工程方向：空间线索提取、轨迹时空对齐、地图可视化模块
